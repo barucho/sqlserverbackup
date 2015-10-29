@@ -13,7 +13,7 @@ backup all dtabase in local instance
 
 
 <#
----notes---
+---notes---   
 to enable scripts plese run as administrator
 Set-ExecutionPolicy RemoteSigned
 #>
