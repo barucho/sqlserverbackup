@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Settings>
+<Backup>
+  <BackupPath>C:\scripts\backup\BackupCurrent\</BackupPath>
+  <ArchivePath>C:\scripts\backup\BackupArchive\</ArchivePath>
+  <Databases>BackupMe01,BackupMe02</Databases>
+  <InstanceName>S1-DATABASE-MAC\GSLADB</InstanceName>
+  <ALLDatabases>true</ALLDatabases>
+  <DaysToKeep>10</DaysToKeep>
+</Backup>
+<Recover>
+<RecoverPath>C:\SQLSERVERBACKUP\</RecoverPath>
+<Databases>BackupMe02</Databases>
+<InstanceName>S1-DATABASE-MAC\GSLADB</InstanceName>
+</Recover>
+</Settings>
